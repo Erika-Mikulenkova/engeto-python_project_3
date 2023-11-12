@@ -11,17 +11,17 @@ Tyto knihovny lze nainstalovat ze souboru **requirements.txt** pomocí příkazu
 ## Spuštění programu:
 Spustíte skript **main.py** a v příkazovém řádku zadáte **python main.py** a **dva povinné argumenty** vložené do uvozovek.
 
-První argument je webová adresa, kde jsou dostupná volební data pro konkrétní obec.
+První argument je webová adresa, kde jsou dostupná volební data pro konkrétní obec.<br
 Druhý argument je Vámi zvolené jméno souboru.csv, do kterého budou data uložena.
 
 ### Příklad spuštění:
-První argument: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8102
+První argument: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8102<br
 Druhý argument: vysledky_voleb_Frydek_Mistek.csv
 
 Vzorový příklad: **python main.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8102" "vysledky_voleb_Frydek_Mistek.csv"**
 
 ## Průběh stahování:
-Loading data...
+Loading data...<br
 The data has been successfully exported to the file: vysledky_voleb_frydek_mistek.csv
 
 ## Částečný výstup:
