@@ -1,7 +1,7 @@
 # **Engeto_projekt_3: Elections scraper**
 
 ## Popis projektu:
-Tento skript slouží pro získání a ukládání dat o výsledcích voleb do poslanecké sněmovny Parlamentu České republiky z roku 2017. Program přijímá jako vstup URL adresu konkrétní obce a generuje CSV soubor, který uvádí číslo obce, název obce, počet voličů, počet vydaných obálek, počet platných hlasů a výsledky jednotlivých stran včetně počtu hlasů pro každou stranu. Odkaz na výsledky voleb je https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ.
+Tento skript slouží pro získání a ukládání dat o výsledcích voleb do poslanecké sněmovny Parlamentu České republiky z roku 2017. Program přijímá jako vstup URL adresu konkrétní obce a generuje CSV soubor, který uvádí číslo obce, název obce, počet voličů, počet vydaných obálek, počet platných hlasů a výsledky jednotlivých stran včetně počtu hlasů pro každou stranu. Odkaz na výsledky voleb je: https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ
 
 ## Instalace knihoven:
 V kódu jsou použity knihovny **requests** a **BeautifulSoup**. Requests slouží pro stahování webových stránek a BeautifulSoup pro parsování HTML obsahu. Knihovny je vhodné nainstalovat do virtuálního prostředí.
