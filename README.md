@@ -6,7 +6,7 @@ Tento skript slouží pro získání a ukládání dat o výsledcích voleb do p
 ## Instalace knihoven:
 V kódu jsou použity knihovny **requests** a **BeautifulSoup**. Requests slouží pro stahování webových stránek a BeautifulSoup pro parsování HTML obsahu. Knihovny je vhodné nainstalovat do virtuálního prostředí.
 
-Tyto knihovny lze nainstalovat ze souboru **requirements.txt** pomocí příkazu **pip3 install -r requirements.txt**.
+Tyto knihovny lze nainstalovat ze souboru **requirements.txt** pomocí příkazu: **pip3 install -r requirements.txt**
 
 ## Spuštění programu:
 Spustíte skript **main.py** a v příkazovém řádku zadáte **python main.py** a **dva povinné argumenty** vložené do uvozovek.
