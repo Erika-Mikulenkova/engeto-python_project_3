@@ -18,7 +18,7 @@ Druhý argument je Vámi zvolené jméno souboru.csv, do kterého budou data ulo
 První argument: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8102<br>
 Druhý argument: vysledky_voleb_Frydek_Mistek.csv
 
-Vzorový příklad: **python main.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8102" "vysledky_voleb_Frydek_Mistek.csv"**
+Vzorový příklad: **python main.py** "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8102" **"vysledky_voleb_Frydek_Mistek.csv"**
 
 ## Průběh stahování:
 Loading data...<br>
