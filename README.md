@@ -4,23 +4,24 @@
 Tento skript slouží pro získání a ukládání dat o výsledcích voleb do poslanecké sněmovny Parlamentu České republiky z roku 2017. Program přijímá jako vstup URL adresu konkrétní obce a generuje CSV soubor, který uvádí číslo obce, název obce, počet voličů, počet vydaných obálek, počet platných hlasů a výsledky jednotlivých stran včetně počtu hlasů pro každou stranu. Odkaz na výsledky voleb je https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ.
 
 ## Instalace knihoven:
-V kódu jsou použity knihovny **requests** a **BeautifulSoup**. Requests slouží pro stahování webových stránek a BeautifulSoup pro parsování HTML obsahu. Knihovny je vhodné nainstalovat do virtuálního porstředí.
+V kódu jsou použity knihovny **requests** a **BeautifulSoup**. Requests slouží pro stahování webových stránek a BeautifulSoup pro parsování HTML obsahu. Knihovny je vhodné nainstalovat do virtuálního prostředí.
 
 Tyto knihovny lze nainstalovat ze souboru **requirements.txt** pomocí příkazu **pip3 install -r requirements.txt**
 
 ## Spuštění programu:
 Spustíte skript **main.py** a v příkazovém řádku zadáte **python main.py** a **dva povinné argumenty** vložené do uvozovek.
 
-První argument je webová adresa, kde jsou dostupná volební data pro konkrétní obec.\n Druhý argument je Vámi zvolené jméno souboru.csv, do kterého budou data uložena.
+První argument je webová adresa, kde jsou dostupná volební data pro konkrétní obec.<br>
+Druhý argument je Vámi zvolené jméno souboru.csv, do kterého budou data uložena.
 
 ### Příklad spuštění:
-První argument: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8102 \n
+První argument: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8102<br>
 Druhý argument: vysledky_voleb_Frydek_Mistek.csv
 
 Vzorový příklad: **python main.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8102" "vysledky_voleb_Frydek_Mistek.csv"**
 
 ## Průběh stahování:
-Loading data... \n
+Loading data...<br>
 The data has been successfully exported to the file: vysledky_voleb_frydek_mistek.csv
 
 ## Částečný výstup:
